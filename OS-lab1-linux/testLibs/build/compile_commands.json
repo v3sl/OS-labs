@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/v3sl/Desktop/OS-labs/OS-lab1-linux/testLibs/build",
+  "command": "/usr/bin/g++  -isystem /home/v3sl/Desktop/OS-labs/OS-lab1-linux/testLibs/../Number -isystem /home/v3sl/Desktop/OS-labs/OS-lab1-linux/testLibs/../Vector -g -std=gnu++14 -o CMakeFiles/testLibs.dir/main.cpp.o -c /home/v3sl/Desktop/OS-labs/OS-lab1-linux/testLibs/main.cpp",
+  "file": "/home/v3sl/Desktop/OS-labs/OS-lab1-linux/testLibs/main.cpp"
+}
+]

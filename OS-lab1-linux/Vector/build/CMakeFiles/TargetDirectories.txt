@@ -1,0 +1,5 @@
+/home/v3sl/Desktop/OS-labs/OS-lab1-linux/Vector/build/CMakeFiles/Vector.dir
+/home/v3sl/Desktop/OS-labs/OS-lab1-linux/Vector/build/CMakeFiles/package.dir
+/home/v3sl/Desktop/OS-labs/OS-lab1-linux/Vector/build/CMakeFiles/package_source.dir
+/home/v3sl/Desktop/OS-labs/OS-lab1-linux/Vector/build/CMakeFiles/edit_cache.dir
+/home/v3sl/Desktop/OS-labs/OS-lab1-linux/Vector/build/CMakeFiles/rebuild_cache.dir

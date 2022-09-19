@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/testLibs.dir/main.cpp.o -o testLibs  -Wl,-rpath,/home/v3sl/Desktop/OS-labs/OS-lab1-linux/testLibs/../Vector/build ../../Number/build/libNumber.a ../../Vector/build/libVector.so 

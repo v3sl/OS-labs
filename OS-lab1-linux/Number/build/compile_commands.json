@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/v3sl/Desktop/OS-labs/OS-lab1-linux/Number/build",
+  "command": "/usr/bin/g++   -g -std=gnu++14 -o CMakeFiles/Number.dir/number.cpp.o -c /home/v3sl/Desktop/OS-labs/OS-lab1-linux/Number/number.cpp",
+  "file": "/home/v3sl/Desktop/OS-labs/OS-lab1-linux/Number/number.cpp"
+}
+]

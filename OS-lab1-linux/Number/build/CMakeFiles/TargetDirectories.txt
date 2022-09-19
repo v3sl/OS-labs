@@ -1,0 +1,5 @@
+/home/v3sl/Desktop/OS-labs/OS-lab1-linux/Number/build/CMakeFiles/Number.dir
+/home/v3sl/Desktop/OS-labs/OS-lab1-linux/Number/build/CMakeFiles/package.dir
+/home/v3sl/Desktop/OS-labs/OS-lab1-linux/Number/build/CMakeFiles/package_source.dir
+/home/v3sl/Desktop/OS-labs/OS-lab1-linux/Number/build/CMakeFiles/edit_cache.dir
+/home/v3sl/Desktop/OS-labs/OS-lab1-linux/Number/build/CMakeFiles/rebuild_cache.dir

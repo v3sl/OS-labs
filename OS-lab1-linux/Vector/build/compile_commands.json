@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/v3sl/Desktop/OS-labs/OS-lab1-linux/Vector/build",
+  "command": "/usr/bin/g++ -DVector_EXPORTS -isystem /home/v3sl/Desktop/OS-labs/OS-lab1-linux/Vector/../Number -g -fPIC -std=gnu++14 -o CMakeFiles/Vector.dir/vector.cpp.o -c /home/v3sl/Desktop/OS-labs/OS-lab1-linux/Vector/vector.cpp",
+  "file": "/home/v3sl/Desktop/OS-labs/OS-lab1-linux/Vector/vector.cpp"
+}
+]
