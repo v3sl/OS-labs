@@ -1,7 +1,8 @@
-c++ -c -fpic Number/number.cpp -o Number/build/number.o
-ar rvs Number/build/number.a Number/build/number.o
-c++ -c -fpic Vector/vector.cpp -o Vector/build/vector.o -INumber
-c++ -shared Vector/build/vector.o Number/build/number.a -o Vector/build/vector.so
-c++ -c testLibs/main.cpp -o testLibs/main.o -INumber -IVector
-c++ -o testLibs/main testLibs/main.o Number/build/number.a Vector/build/vector.so
-./testLibs/main
+g++ -c Number/number.cpp -o Number/build/number.o
+ar r Number/build/libNumber.a Number/build/number.o 
+g++ -c Vector/vector.cpp -o Vector/build/vector.o -INumber -LNumber/build -lNumber
+g++ -shared -o Vector/build/libVector.so Vector/build/vector.o
+g++ -o testLibs/main testLibs/main.cpp -INumber -LNumber/build -lNumber -IVector  -LVector/build -lVector 
+cd testLibs
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:../Vector/build
+./main
