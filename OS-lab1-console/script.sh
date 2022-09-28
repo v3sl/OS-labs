@@ -6,3 +6,4 @@ g++ -o testLibs/main testLibs/main.cpp -INumber -LNumber/build -lNumber -IVector
 cd testLibs
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:../Vector/build
 ./main
+cd ../
