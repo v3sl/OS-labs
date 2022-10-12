@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <vector>
 #include <thread>
@@ -132,7 +131,6 @@ int main()
 
     std::vector<std::vector<int>> firstMatrix = MakeMatrix(sizeOfMatrix);
     std::vector<std::vector<int>> secondMatrix = MakeMatrix(sizeOfMatrix);
-    ;
     std::vector<std::vector<int>> result(sizeOfMatrix, std::vector<int>(sizeOfMatrix));
 
     FindDefaultCalculationTime(firstMatrix, secondMatrix, result, sizeOfMatrix);
@@ -142,6 +140,5 @@ int main()
     {
         std::cout << "calculation ratio with block size " << i + 1 << " " << defaultCalculationResults[i] / threadCalculationResults[i] << '\n';
     }
-
     return 0;
 }
