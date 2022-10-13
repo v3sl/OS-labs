@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <thread>
-
+#include <mutex>
 struct Timer
 {
     std::chrono::time_point<std::chrono::steady_clock> start, end;
@@ -14,7 +14,7 @@ struct Timer
 
     ~Timer() = default;
 
-    float getCurrentMs()
+    float GetCurrentMs()
     {
         end = std::chrono::high_resolution_clock::now();
         duration = end - start;
@@ -37,8 +37,8 @@ void MultiplyBlocks(const std::vector<std::vector<int>> &firstMatrix, const std:
     }
 }
 
-std::vector<double> threadCalculationResults;
-std::vector<double> defaultCalculationResults;
+std::vector<float> threadCalculationResults;
+std::vector<float> defaultCalculationResults;
 
 void MultiplyWithoutThreads(const std::vector<std::vector<int>> &firstMatrix, const std::vector<std::vector<int>> secondMatrix, std::vector<std::vector<int>> &result, size_t matrixSize, size_t blockSize)
 {
@@ -51,6 +51,8 @@ void MultiplyWithoutThreads(const std::vector<std::vector<int>> &firstMatrix, co
     }
 }
 
+std::mutex mutex;
+
 void MultiplyWithThreads(const std::vector<std::vector<int>> &firstMatrix, const std::vector<std::vector<int>> &secondMatrix, std::vector<std::vector<int>> &result, size_t matrixSize, size_t blockSize)
 {
     std::vector<std::thread> threads;
@@ -58,7 +60,9 @@ void MultiplyWithThreads(const std::vector<std::vector<int>> &firstMatrix, const
     {
         for (size_t blockJ = 0; blockJ < matrixSize; blockJ += blockSize)
         {
+            mutex.lock();
             threads.emplace_back(MultiplyBlocks, std::cref(firstMatrix), std::cref(secondMatrix), std::ref(result), blockI, blockJ, matrixSize, blockSize);
+            mutex.unlock();
         }
     }
     for (std::thread &thread : threads)
@@ -71,10 +75,10 @@ void FindThreadsCalculationTime(const std::vector<std::vector<int>> &firstMatrix
 {
     Timer time;
 
-    for (int i = 1; i <= matrixSize; ++i)
+    for (size_t i = 1; i <= matrixSize; ++i)
     {
         MultiplyWithThreads(firstMatrix, secondMatrix, result, matrixSize, i);
-        threadCalculationResults.push_back(time.getCurrentMs());
+        threadCalculationResults.push_back(time.GetCurrentMs());
     }
 }
 
@@ -82,10 +86,10 @@ void FindDefaultCalculationTime(const std::vector<std::vector<int>> &firstMatrix
 {
     Timer time;
 
-    for (int i = 1; i <= matrixSize; i++)
+    for (size_t i = 1; i <= matrixSize; ++i)
     {
         MultiplyWithoutThreads(firstMatrix, secondMatrix, result, matrixSize, i);
-        defaultCalculationResults.push_back(time.getCurrentMs());
+        defaultCalculationResults.push_back(time.GetCurrentMs());
     }
 }
 
@@ -140,5 +144,6 @@ int main()
     {
         std::cout << "calculation ratio with block size " << i + 1 << " " << defaultCalculationResults[i] / threadCalculationResults[i] << '\n';
     }
+
     return 0;
 }
