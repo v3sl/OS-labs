@@ -1,0 +1,9 @@
+C:/Users/sasha/Desktop/Новая папка/OS-lab3/build/CMakeFiles/Experimental.dir
+C:/Users/sasha/Desktop/Новая папка/OS-lab3/build/CMakeFiles/Nightly.dir
+C:/Users/sasha/Desktop/Новая папка/OS-lab3/build/CMakeFiles/Continuous.dir
+C:/Users/sasha/Desktop/Новая папка/OS-lab3/build/CMakeFiles/NightlyMemoryCheck.dir
+C:/Users/sasha/Desktop/Новая папка/OS-lab3/build/CMakeFiles/OS-lab3.dir
+C:/Users/sasha/Desktop/Новая папка/OS-lab3/build/CMakeFiles/PACKAGE.dir
+C:/Users/sasha/Desktop/Новая папка/OS-lab3/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/sasha/Desktop/Новая папка/OS-lab3/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/sasha/Desktop/Новая папка/OS-lab3/build/CMakeFiles/ZERO_CHECK.dir
