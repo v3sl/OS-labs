@@ -2,6 +2,7 @@
 #include <vector>
 #include <thread>
 #include <mutex>
+
 struct Timer
 {
     std::chrono::time_point<std::chrono::steady_clock> start, end;
@@ -18,6 +19,7 @@ struct Timer
     {
         end = std::chrono::high_resolution_clock::now();
         duration = end - start;
+        
         float ms = duration.count() * 1000.0f;
         return ms;
     }
