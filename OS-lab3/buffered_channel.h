@@ -32,12 +32,13 @@ public:
 
     std::pair<T, bool> Recv()
     {
+        std::unique_lock<std::mutex> lock(mutexLock);
+
         if (isClosed && container.size() <= 0)
         {
             return std::make_pair(T(), false);
         }
 
-        std::unique_lock<std::mutex> lock(mutexLock);
         check.wait(lock, [this]()
                    { return !container.empty(); });
 
