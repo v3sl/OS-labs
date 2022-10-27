@@ -3,6 +3,7 @@
 #include <thread>
 #include <mutex>
 
+std::mutex mutex;
 struct Timer
 {
     std::chrono::time_point<std::chrono::steady_clock> start, end;
@@ -19,7 +20,7 @@ struct Timer
     {
         end = std::chrono::high_resolution_clock::now();
         duration = end - start;
-        
+
         float ms = duration.count() * 1000.0f;
         return ms;
     }
@@ -33,7 +34,9 @@ void MultiplyBlocks(const std::vector<std::vector<int>> &firstMatrix, const std:
         {
             for (size_t k = 0; k < matrixSize; ++k)
             {
+                mutex.lock();
                 result[i][j] += firstMatrix[i][k] * secondMatrix[k][j];
+                mutex.unlock();
             }
         }
     }
@@ -53,8 +56,6 @@ void MultiplyWithoutThreads(const std::vector<std::vector<int>> &firstMatrix, co
     }
 }
 
-std::mutex mutex;
-
 void MultiplyWithThreads(const std::vector<std::vector<int>> &firstMatrix, const std::vector<std::vector<int>> &secondMatrix, std::vector<std::vector<int>> &result, size_t matrixSize, size_t blockSize)
 {
     std::vector<std::thread> threads;
@@ -62,9 +63,7 @@ void MultiplyWithThreads(const std::vector<std::vector<int>> &firstMatrix, const
     {
         for (size_t blockJ = 0; blockJ < matrixSize; blockJ += blockSize)
         {
-            mutex.lock();
             threads.emplace_back(MultiplyBlocks, std::cref(firstMatrix), std::cref(secondMatrix), std::ref(result), blockI, blockJ, matrixSize, blockSize);
-            mutex.unlock();
         }
     }
     for (std::thread &thread : threads)
@@ -75,10 +74,10 @@ void MultiplyWithThreads(const std::vector<std::vector<int>> &firstMatrix, const
 
 void FindThreadsCalculationTime(const std::vector<std::vector<int>> &firstMatrix, const std::vector<std::vector<int>> &secondMatrix, std::vector<std::vector<int>> &result, size_t matrixSize)
 {
-    Timer time;
-
     for (size_t i = 1; i <= matrixSize; ++i)
     {
+        Timer time;
+        result = std::vector<std::vector<int>>(firstMatrix.size(), std::vector<int>(firstMatrix.size()));
         MultiplyWithThreads(firstMatrix, secondMatrix, result, matrixSize, i);
         threadCalculationResults.push_back(time.GetCurrentMs());
     }
@@ -86,10 +85,11 @@ void FindThreadsCalculationTime(const std::vector<std::vector<int>> &firstMatrix
 
 void FindDefaultCalculationTime(const std::vector<std::vector<int>> &firstMatrix, const std::vector<std::vector<int>> &secondMatrix, std::vector<std::vector<int>> &result, size_t matrixSize)
 {
-    Timer time;
 
     for (size_t i = 1; i <= matrixSize; ++i)
     {
+        Timer time;
+        result = std::vector<std::vector<int>>(firstMatrix.size(), std::vector<int>(firstMatrix.size()));
         MultiplyWithoutThreads(firstMatrix, secondMatrix, result, matrixSize, i);
         defaultCalculationResults.push_back(time.GetCurrentMs());
     }
@@ -135,17 +135,18 @@ int main()
     std::cout << "Enter size of matrix\n";
     std::cin >> sizeOfMatrix;
 
-    std::vector<std::vector<int>> firstMatrix = MakeMatrix(sizeOfMatrix);
+    std::vector<std::vector<int>> firstMatrix = {{1, 2, 3, 4, 5}, {1, 2, 3, 4, 5}, {1, 2, 3, 4, 5}, {1, 2, 3, 4, 5}, {1, 2, 3, 4, 5}};
     std::vector<std::vector<int>> secondMatrix = MakeMatrix(sizeOfMatrix);
     std::vector<std::vector<int>> result(sizeOfMatrix, std::vector<int>(sizeOfMatrix));
 
-    FindDefaultCalculationTime(firstMatrix, secondMatrix, result, sizeOfMatrix);
-    FindThreadsCalculationTime(firstMatrix, secondMatrix, result, sizeOfMatrix);
+    FindDefaultCalculationTime(firstMatrix, firstMatrix, result, sizeOfMatrix);
+    FindThreadsCalculationTime(firstMatrix, firstMatrix, result, sizeOfMatrix);
 
     for (int i = 0; i < threadCalculationResults.size(); ++i)
     {
         std::cout << "calculation ratio with block size " << i + 1 << " " << defaultCalculationResults[i] / threadCalculationResults[i] << '\n';
     }
 
+    PrintMatrix(result);
     return 0;
 }

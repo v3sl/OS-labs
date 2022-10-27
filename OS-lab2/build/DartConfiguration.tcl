@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/Users/sasha/Desktop/Новая папка/OS-lab2
-BuildDirectory: C:/Users/sasha/Desktop/Новая папка/OS-lab2/build
+SourceDirectory: C:/Users/sasha/Desktop/Новая папка (2)/OS-lab2
+BuildDirectory: C:/Users/sasha/Desktop/Новая папка (2)/OS-lab2/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "C:/Users/sasha/Desktop/Новая папка/OS-lab2"
+ConfigureCommand: "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "C:/Users/sasha/Desktop/Новая папка (2)/OS-lab2"
 MakeCommand: "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

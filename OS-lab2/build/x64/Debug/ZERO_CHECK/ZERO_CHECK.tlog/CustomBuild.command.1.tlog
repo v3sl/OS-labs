@@ -1,6 +1,6 @@
-^C:\USERS\SASHA\DESKTOP\НОВАЯ ПАПКА\OS-LAB2\BUILD\CMAKEFILES\86D557E8EA73C1C5D63CCFAB8631A275\GENERATE.STAMP.RULE
+^C:\USERS\SASHA\DESKTOP\НОВАЯ ПАПКА (2)\OS-LAB2\BUILD\CMAKEFILES\5BFF75D1CFC8CC4A2B4D36E22B93593F\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/sasha/Desktop/Новая папка/OS-lab2" "-BC:/Users/sasha/Desktop/Новая папка/OS-lab2/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/sasha/Desktop/Новая папка/OS-lab2/build/OS-lab2.sln"
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/sasha/Desktop/Новая папка (2)/OS-lab2" "-BC:/Users/sasha/Desktop/Новая папка (2)/OS-lab2/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/sasha/Desktop/Новая папка (2)/OS-lab2/build/OS-lab2.sln"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
