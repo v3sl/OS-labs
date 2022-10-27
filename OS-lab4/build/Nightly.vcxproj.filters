@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sasha\Desktop\Новая папка (2)\OS-lab4\build\CMakeFiles\5d2fed7f9f2bd0194102640b54880029\Nightly.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sasha\Desktop\Новая папка (2)\OS-lab4\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\sasha\Desktop\Новая папка (2)\OS-lab4\build\CMakeFiles\Nightly" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3E17DAA3-7DBC-3B4D-804B-7097A5350F8E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
