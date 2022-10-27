@@ -138,7 +138,10 @@ int main()
 
     std::vector<std::vector<int>> result(sizeOfMatrix, std::vector<int>(sizeOfMatrix));
 
-    FindCalculationTime(firstMatrix, secondMatrix, result, sizeOfMatrix, 17);
+    for (int i = 0; i < 50; ++i)
+    {
+        FindCalculationTime(firstMatrix, secondMatrix, result, sizeOfMatrix, i);
+    }
 
     return 0;
 }
