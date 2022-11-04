@@ -135,7 +135,7 @@ int main()
     std::cout << "Enter size of matrix\n";
     std::cin >> sizeOfMatrix;
 
-    std::vector<std::vector<int>> firstMatrix = {{1, 2, 3, 4, 5}, {1, 2, 3, 4, 5}, {1, 2, 3, 4, 5}, {1, 2, 3, 4, 5}, {1, 2, 3, 4, 5}};
+    std::vector<std::vector<int>> firstMatrix =  MakeMatrix(sizeOfMatrix);
     std::vector<std::vector<int>> secondMatrix = MakeMatrix(sizeOfMatrix);
     std::vector<std::vector<int>> result(sizeOfMatrix, std::vector<int>(sizeOfMatrix));
 
