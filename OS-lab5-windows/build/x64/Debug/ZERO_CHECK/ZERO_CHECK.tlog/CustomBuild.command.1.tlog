@@ -1,0 +1,10 @@
+^C:\USERS\SASHA\DESKTOP\НОВАЯ ПАПКА (2)\OS-LAB5-WINDOWS\BUILD\CMAKEFILES\50050D4E261143CAD122C67B85127D4C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/sasha/Desktop/Новая папка (2)/OS-lab5-windows" "-BC:/Users/sasha/Desktop/Новая папка (2)/OS-lab5-windows/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/sasha/Desktop/Новая папка (2)/OS-lab5-windows/build/OS-lab5.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

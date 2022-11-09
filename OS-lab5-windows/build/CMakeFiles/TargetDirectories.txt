@@ -1,0 +1,9 @@
+C:/Users/sasha/Desktop/Новая папка (2)/OS-lab5-windows/build/CMakeFiles/Experimental.dir
+C:/Users/sasha/Desktop/Новая папка (2)/OS-lab5-windows/build/CMakeFiles/Nightly.dir
+C:/Users/sasha/Desktop/Новая папка (2)/OS-lab5-windows/build/CMakeFiles/Continuous.dir
+C:/Users/sasha/Desktop/Новая папка (2)/OS-lab5-windows/build/CMakeFiles/NightlyMemoryCheck.dir
+C:/Users/sasha/Desktop/Новая папка (2)/OS-lab5-windows/build/CMakeFiles/OS-lab5.dir
+C:/Users/sasha/Desktop/Новая папка (2)/OS-lab5-windows/build/CMakeFiles/PACKAGE.dir
+C:/Users/sasha/Desktop/Новая папка (2)/OS-lab5-windows/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/sasha/Desktop/Новая папка (2)/OS-lab5-windows/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/sasha/Desktop/Новая папка (2)/OS-lab5-windows/build/CMakeFiles/ZERO_CHECK.dir
