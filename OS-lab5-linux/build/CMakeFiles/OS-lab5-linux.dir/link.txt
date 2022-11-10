@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/OS-lab5-linux.dir/main.cpp.o -o OS-lab5-linux 
