@@ -2,10 +2,10 @@
 #include <vector>
 #include <mutex>
 #include <windows.h>
+
 #undef min
 
 std::mutex mutex;
-
 struct Timer
 {
     std::chrono::time_point<std::chrono::steady_clock> start, end;
@@ -72,7 +72,7 @@ struct Args
     size_t blockSize;
 };
 
-DWORD WINAPI Call(LPVOID args)
+DWORD WINAPI CallMultiply(LPVOID args)
 {
     Args *castedArgs = (Args *)args;
     MultiplyBlocks(castedArgs->firstMatrix, castedArgs->secondMatrix, castedArgs->result, castedArgs->blockI, castedArgs->blockJ, castedArgs->matrixSize, castedArgs->blockSize);
@@ -86,13 +86,14 @@ void MultiplyWithThreads(const std::vector<std::vector<int>> &firstMatrix, const
     {
         for (size_t blockJ = 0; blockJ < matrixSize; blockJ += blockSize)
         {
-            threads.emplace_back(CreateThread(NULL, 0, &Call, new Args(firstMatrix, secondMatrix, result, blockI, blockJ, matrixSize, blockSize), 0, NULL));
+            threads.emplace_back(CreateThread(NULL, 0, &CallMultiply, new Args(firstMatrix, secondMatrix, result, blockI, blockJ, matrixSize, blockSize), 0, NULL));
         }
     }
     for (HANDLE &thread : threads)
     {
         WaitForSingleObject(thread, INFINITE);
     }
+    threads.clear();
 }
 
 void FindThreadsCalculationTime(const std::vector<std::vector<int>> &firstMatrix, const std::vector<std::vector<int>> &secondMatrix, std::vector<std::vector<int>> &result, size_t matrixSize)
