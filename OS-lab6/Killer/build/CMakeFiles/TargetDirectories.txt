@@ -1,0 +1,9 @@
+C:/Users/sasha/Desktop/Новая папка (2)/OS-lab6/Killer/build/CMakeFiles/Experimental.dir
+C:/Users/sasha/Desktop/Новая папка (2)/OS-lab6/Killer/build/CMakeFiles/Nightly.dir
+C:/Users/sasha/Desktop/Новая папка (2)/OS-lab6/Killer/build/CMakeFiles/Continuous.dir
+C:/Users/sasha/Desktop/Новая папка (2)/OS-lab6/Killer/build/CMakeFiles/NightlyMemoryCheck.dir
+C:/Users/sasha/Desktop/Новая папка (2)/OS-lab6/Killer/build/CMakeFiles/Killer.dir
+C:/Users/sasha/Desktop/Новая папка (2)/OS-lab6/Killer/build/CMakeFiles/PACKAGE.dir
+C:/Users/sasha/Desktop/Новая папка (2)/OS-lab6/Killer/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/sasha/Desktop/Новая папка (2)/OS-lab6/Killer/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/sasha/Desktop/Новая папка (2)/OS-lab6/Killer/build/CMakeFiles/ZERO_CHECK.dir

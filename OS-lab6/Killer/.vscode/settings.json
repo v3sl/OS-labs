@@ -1,0 +1,10 @@
+{
+    "cSpell.words": [
+        "PROCESSENTRY",
+        "SNAPALL",
+        "Toolhelp"
+    ],
+    "files.associations": {
+        "string": "cpp"
+    }
+}

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\sasha\Desktop\Новая папка (2)\OS-lab6\Killer\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sasha\Desktop\Новая папка (2)\OS-lab6\Killer\killer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\sasha\Desktop\Новая папка (2)\OS-lab6\Killer\killer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sasha\Desktop\Новая папка (2)\OS-lab6\Killer\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{23B37199-D7BC-353A-ADB8-2F44309841C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{580678BC-DBF4-337D-9166-94731059F6E5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
