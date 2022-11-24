@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/v3sl/Desktop/OS-lab6-linux/User/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/User.dir/main.cpp.o -c /home/v3sl/Desktop/OS-lab6-linux/User/main.cpp",
+  "file": "/home/v3sl/Desktop/OS-lab6-linux/User/main.cpp"
+}
+]
