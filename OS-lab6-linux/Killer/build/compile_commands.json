@@ -1,7 +1,7 @@
 [
 {
-  "directory": "/home/v3sl/Desktop/OS-lab6-linux/Killer/build",
-  "command": "/usr/bin/g++   -g -o CMakeFiles/Killer.dir/main.cpp.o -c /home/v3sl/Desktop/OS-lab6-linux/Killer/main.cpp",
-  "file": "/home/v3sl/Desktop/OS-lab6-linux/Killer/main.cpp"
+  "directory": "/home/v3sl/Desktop/OS/OS-lab6-linux/Killer/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/Killer.dir/main.cpp.o -c /home/v3sl/Desktop/OS/OS-lab6-linux/Killer/main.cpp",
+  "file": "/home/v3sl/Desktop/OS/OS-lab6-linux/Killer/main.cpp"
 }
 ]

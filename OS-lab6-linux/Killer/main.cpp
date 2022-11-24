@@ -1,43 +1,55 @@
 #include <signal.h>
-#include <sys/types.h>
 #include <iostream>
 #include <cstring>
-#include <iostream>
-#include <vector>
+
+bool IsNumber(const char *string)
+{
+    for (int i = 0; i < strlen(string); ++i)
+    {
+        if (!isdigit(string[i]))
+        {
+            return false;
+        }
+    }
+    return true;
+}
 
 void KillProccessByName(const char *name)
 {
-    char buf[512];
-    std::string str(name);
-    FILE *cmdPipe = popen(("pidof " + str).c_str(), "r");
-    fgets(buf, 512, cmdPipe);
-    pid_t pid = strtoul(buf, NULL, 10);
-    std::string allPID(buf);
+    int size = 512;
+    char buffer[size];
+    std::string stringName(name);
+    FILE *cmdPipe = popen(("pidof " + stringName).c_str(), "r");
+    fgets(buffer, size, cmdPipe);
     pclose(cmdPipe);
+    std::string allPID(buffer);
     if (allPID.empty())
     {
         return;
     }
-    char *ptr = strtok(&allPID.front(), " ");
-    while (ptr != NULL)
+    char *pid = strtok(&allPID.front(), " ");
+    while (pid != NULL)
     {
-        kill(std::atoi(ptr), SIGTERM);
-        ptr = strtok(NULL, " ");
+        if (IsNumber(pid))
+        {
+            kill(std::atoi(pid), SIGTERM);
+        }
+        pid = strtok(NULL, " ");
     }
 }
 
 void KIllProccessByEv()
 {
-    char *cstr = getenv("PROC_TO_KILL");
-    if (cstr == NULL)
+    char *stringEV = getenv("PROC_TO_KILL");
+    if (stringEV == NULL)
     {
         return;
     }
-    char *ptr = strtok(cstr, ",");
-    while (ptr != NULL)
+    char *proccessName = strtok(stringEV, ",");
+    while (proccessName != NULL)
     {
-        KillProccessByName(ptr);
-        ptr = strtok(NULL, ",");
+        KillProccessByName(proccessName);
+        proccessName = strtok(NULL, ",");
     }
 }
 

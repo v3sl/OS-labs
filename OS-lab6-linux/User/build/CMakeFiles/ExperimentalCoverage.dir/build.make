@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/v3sl/Desktop/OS-lab6-linux/User
+CMAKE_SOURCE_DIR = /home/v3sl/Desktop/OS/OS-lab6-linux/User
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/v3sl/Desktop/OS-lab6-linux/User/build
+CMAKE_BINARY_DIR = /home/v3sl/Desktop/OS/OS-lab6-linux/User/build
 
 # Utility rule file for ExperimentalCoverage.
 
@@ -82,6 +82,6 @@ CMakeFiles/ExperimentalCoverage.dir/clean:
 .PHONY : CMakeFiles/ExperimentalCoverage.dir/clean
 
 CMakeFiles/ExperimentalCoverage.dir/depend:
-	cd /home/v3sl/Desktop/OS-lab6-linux/User/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/v3sl/Desktop/OS-lab6-linux/User /home/v3sl/Desktop/OS-lab6-linux/User /home/v3sl/Desktop/OS-lab6-linux/User/build /home/v3sl/Desktop/OS-lab6-linux/User/build /home/v3sl/Desktop/OS-lab6-linux/User/build/CMakeFiles/ExperimentalCoverage.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/v3sl/Desktop/OS/OS-lab6-linux/User/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/v3sl/Desktop/OS/OS-lab6-linux/User /home/v3sl/Desktop/OS/OS-lab6-linux/User /home/v3sl/Desktop/OS/OS-lab6-linux/User/build /home/v3sl/Desktop/OS/OS-lab6-linux/User/build /home/v3sl/Desktop/OS/OS-lab6-linux/User/build/CMakeFiles/ExperimentalCoverage.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ExperimentalCoverage.dir/depend
 

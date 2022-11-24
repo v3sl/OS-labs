@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/v3sl/Desktop/OS-lab6-linux/Killer
-BuildDirectory: /home/v3sl/Desktop/OS-lab6-linux/Killer/build
+SourceDirectory: /home/v3sl/Desktop/OS/OS-lab6-linux/Killer
+BuildDirectory: /home/v3sl/Desktop/OS/OS-lab6-linux/Killer/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/v3sl/Desktop/OS-lab6-linux/Killer"
+ConfigureCommand: "/usr/bin/cmake" "/home/v3sl/Desktop/OS/OS-lab6-linux/Killer"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 

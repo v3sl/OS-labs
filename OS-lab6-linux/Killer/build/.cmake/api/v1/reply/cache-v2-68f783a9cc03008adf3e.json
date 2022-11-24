@@ -83,7 +83,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/v3sl/Desktop/OS-lab6-linux/Killer/build"
+			"value" : "/home/v3sl/Desktop/OS/OS-lab6-linux/Killer/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -623,7 +623,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/v3sl/Desktop/OS-lab6-linux/Killer"
+			"value" : "/home/v3sl/Desktop/OS/OS-lab6-linux/Killer"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1619,7 +1619,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/v3sl/Desktop/OS-lab6-linux/Killer/build"
+			"value" : "/home/v3sl/Desktop/OS/OS-lab6-linux/Killer/build"
 		},
 		{
 			"name" : "Killer_IS_TOP_LEVEL",
@@ -1643,7 +1643,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/v3sl/Desktop/OS-lab6-linux/Killer"
+			"value" : "/home/v3sl/Desktop/OS/OS-lab6-linux/Killer"
 		},
 		{
 			"name" : "MAKECOMMAND",

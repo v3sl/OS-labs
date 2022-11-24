@@ -55,7 +55,7 @@
 					[
 						0
 					],
-					"name" : "User",
+					"name" : "Killer",
 					"targetIndexes" : 
 					[
 						0,
@@ -220,6 +220,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "Killer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Killer-Debug-bf974bc23ac9ec2baa94.json",
+					"name" : "Killer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "Nightly::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Nightly-Debug-f9e5b741b22949f8cead.json",
 					"name" : "Nightly",
@@ -287,13 +294,6 @@
 					"jsonFile" : "target-NightlyUpdate-Debug-63d766d752c6738946de.json",
 					"name" : "NightlyUpdate",
 					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "User::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-User-Debug-be5b2c17cebdba3c97a8.json",
-					"name" : "User",
-					"projectIndex" : 0
 				}
 			]
 		}
@@ -301,8 +301,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/v3sl/Desktop/OS-lab6-linux/User/build",
-		"source" : "/home/v3sl/Desktop/OS-lab6-linux/User"
+		"build" : "/home/v3sl/Desktop/OS/OS-lab6-linux/Killer/build",
+		"source" : "/home/v3sl/Desktop/OS/OS-lab6-linux/Killer"
 	},
 	"version" : 
 	{

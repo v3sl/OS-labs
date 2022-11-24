@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/v3sl/Desktop/OS-lab6-linux/User/main.cpp" "CMakeFiles/User.dir/main.cpp.o" "gcc" "CMakeFiles/User.dir/main.cpp.o.d"
+  "/home/v3sl/Desktop/OS/OS-lab6-linux/User/main.cpp" "CMakeFiles/User.dir/main.cpp.o" "gcc" "CMakeFiles/User.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.

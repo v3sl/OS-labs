@@ -83,7 +83,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/v3sl/Desktop/OS-lab6-linux/User/build"
+			"value" : "/home/v3sl/Desktop/OS/OS-lab6-linux/User/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -623,7 +623,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/v3sl/Desktop/OS-lab6-linux/User"
+			"value" : "/home/v3sl/Desktop/OS/OS-lab6-linux/User"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1715,7 +1715,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/v3sl/Desktop/OS-lab6-linux/User/build"
+			"value" : "/home/v3sl/Desktop/OS/OS-lab6-linux/User/build"
 		},
 		{
 			"name" : "User_IS_TOP_LEVEL",
@@ -1739,7 +1739,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/v3sl/Desktop/OS-lab6-linux/User"
+			"value" : "/home/v3sl/Desktop/OS/OS-lab6-linux/User"
 		}
 	],
 	"kind" : "cache",

@@ -1,4 +1,4 @@
-# Install script for directory: /home/v3sl/Desktop/OS-lab6-linux/User
+# Install script for directory: /home/v3sl/Desktop/OS/OS-lab6-linux/User
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/v3sl/Desktop/OS-lab6-linux/User/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/v3sl/Desktop/OS/OS-lab6-linux/User/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
