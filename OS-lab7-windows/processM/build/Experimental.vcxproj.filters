@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sasha\Desktop\Os\OS-lab7-windows\processM\build\CMakeFiles\13ebdbdc382255e5bbbe838837b10192\Experimental.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sasha\Desktop\Os\OS-lab7-windows\processM\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\sasha\Desktop\Os\OS-lab7-windows\processM\build\CMakeFiles\Experimental" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{65F4CAA8-B5DD-3B36-85C7-667BFEB00CA7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

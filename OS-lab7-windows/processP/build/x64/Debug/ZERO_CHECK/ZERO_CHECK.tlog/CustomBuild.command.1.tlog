@@ -1,0 +1,10 @@
+^C:\USERS\SASHA\DESKTOP\OS\OS-LAB7-WINDOWS\PROCESSP\BUILD\CMAKEFILES\50DF112B16760E2FF6D54384A851613F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/sasha/Desktop/Os/OS-lab7-windows/processP -BC:/Users/sasha/Desktop/Os/OS-lab7-windows/processP/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/sasha/Desktop/Os/OS-lab7-windows/processP/build/processP.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

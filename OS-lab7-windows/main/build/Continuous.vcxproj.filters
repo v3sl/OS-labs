@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sasha\Desktop\Os\OS-lab7-windows\main\build\CMakeFiles\9cbf5229bcebfdf45e3e229457f84c29\Continuous.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\sasha\Desktop\Os\OS-lab7-windows\main\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\sasha\Desktop\Os\OS-lab7-windows\main\build\CMakeFiles\Continuous" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E0647116-8996-368D-808A-3E48F53AFE4E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

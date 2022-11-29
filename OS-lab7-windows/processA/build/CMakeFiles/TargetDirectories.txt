@@ -1,0 +1,9 @@
+C:/Users/sasha/Desktop/Os/OS-lab7-windows/processA/build/CMakeFiles/Experimental.dir
+C:/Users/sasha/Desktop/Os/OS-lab7-windows/processA/build/CMakeFiles/Nightly.dir
+C:/Users/sasha/Desktop/Os/OS-lab7-windows/processA/build/CMakeFiles/Continuous.dir
+C:/Users/sasha/Desktop/Os/OS-lab7-windows/processA/build/CMakeFiles/NightlyMemoryCheck.dir
+C:/Users/sasha/Desktop/Os/OS-lab7-windows/processA/build/CMakeFiles/processA.dir
+C:/Users/sasha/Desktop/Os/OS-lab7-windows/processA/build/CMakeFiles/PACKAGE.dir
+C:/Users/sasha/Desktop/Os/OS-lab7-windows/processA/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/sasha/Desktop/Os/OS-lab7-windows/processA/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/sasha/Desktop/Os/OS-lab7-windows/processA/build/CMakeFiles/ZERO_CHECK.dir
