@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/v3sl/Desktop/OS/OS-lab7-linux/main/build",
+  "command": "/usr/bin/g++  -isystem /home/v3sl/Desktop/OS/OS-lab7-linux/main/../pipe -g -o CMakeFiles/main.dir/main.cpp.o -c /home/v3sl/Desktop/OS/OS-lab7-linux/main/main.cpp",
+  "file": "/home/v3sl/Desktop/OS/OS-lab7-linux/main/main.cpp"
+}
+]

@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/processS.dir/main.cpp.o -o processS  ../../pipe/build/libpipe.a 
