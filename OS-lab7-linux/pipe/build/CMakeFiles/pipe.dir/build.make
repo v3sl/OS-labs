@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/v3sl/Desktop/OS-lab7-linux/pipe
+CMAKE_SOURCE_DIR = /home/v3sl/Desktop/OS/OS-lab7-linux/pipe
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/v3sl/Desktop/OS-lab7-linux/pipe/build
+CMAKE_BINARY_DIR = /home/v3sl/Desktop/OS/OS-lab7-linux/pipe/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pipe.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/pipe.dir/flags.make
 CMakeFiles/pipe.dir/pipe.cpp.o: CMakeFiles/pipe.dir/flags.make
 CMakeFiles/pipe.dir/pipe.cpp.o: ../pipe.cpp
 CMakeFiles/pipe.dir/pipe.cpp.o: CMakeFiles/pipe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/v3sl/Desktop/OS-lab7-linux/pipe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pipe.dir/pipe.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pipe.dir/pipe.cpp.o -MF CMakeFiles/pipe.dir/pipe.cpp.o.d -o CMakeFiles/pipe.dir/pipe.cpp.o -c /home/v3sl/Desktop/OS-lab7-linux/pipe/pipe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/v3sl/Desktop/OS/OS-lab7-linux/pipe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pipe.dir/pipe.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pipe.dir/pipe.cpp.o -MF CMakeFiles/pipe.dir/pipe.cpp.o.d -o CMakeFiles/pipe.dir/pipe.cpp.o -c /home/v3sl/Desktop/OS/OS-lab7-linux/pipe/pipe.cpp
 
 CMakeFiles/pipe.dir/pipe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pipe.dir/pipe.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/v3sl/Desktop/OS-lab7-linux/pipe/pipe.cpp > CMakeFiles/pipe.dir/pipe.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/v3sl/Desktop/OS/OS-lab7-linux/pipe/pipe.cpp > CMakeFiles/pipe.dir/pipe.cpp.i
 
 CMakeFiles/pipe.dir/pipe.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pipe.dir/pipe.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/v3sl/Desktop/OS-lab7-linux/pipe/pipe.cpp -o CMakeFiles/pipe.dir/pipe.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/v3sl/Desktop/OS/OS-lab7-linux/pipe/pipe.cpp -o CMakeFiles/pipe.dir/pipe.cpp.s
 
 # Object files for target pipe
 pipe_OBJECTS = \
@@ -93,7 +93,7 @@ pipe_EXTERNAL_OBJECTS =
 libpipe.a: CMakeFiles/pipe.dir/pipe.cpp.o
 libpipe.a: CMakeFiles/pipe.dir/build.make
 libpipe.a: CMakeFiles/pipe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/v3sl/Desktop/OS-lab7-linux/pipe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libpipe.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/v3sl/Desktop/OS/OS-lab7-linux/pipe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libpipe.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/pipe.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pipe.dir/link.txt --verbose=$(VERBOSE)
 
@@ -106,6 +106,6 @@ CMakeFiles/pipe.dir/clean:
 .PHONY : CMakeFiles/pipe.dir/clean
 
 CMakeFiles/pipe.dir/depend:
-	cd /home/v3sl/Desktop/OS-lab7-linux/pipe/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/v3sl/Desktop/OS-lab7-linux/pipe /home/v3sl/Desktop/OS-lab7-linux/pipe /home/v3sl/Desktop/OS-lab7-linux/pipe/build /home/v3sl/Desktop/OS-lab7-linux/pipe/build /home/v3sl/Desktop/OS-lab7-linux/pipe/build/CMakeFiles/pipe.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/v3sl/Desktop/OS/OS-lab7-linux/pipe/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/v3sl/Desktop/OS/OS-lab7-linux/pipe /home/v3sl/Desktop/OS/OS-lab7-linux/pipe /home/v3sl/Desktop/OS/OS-lab7-linux/pipe/build /home/v3sl/Desktop/OS/OS-lab7-linux/pipe/build /home/v3sl/Desktop/OS/OS-lab7-linux/pipe/build/CMakeFiles/pipe.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pipe.dir/depend
 

@@ -2,6 +2,7 @@
 
 #include <pipe.h>
 #include <cmath>
+#include <string>
 
 int main()
 {

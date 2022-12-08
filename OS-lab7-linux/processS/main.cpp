@@ -1,6 +1,7 @@
 #pragma GCC diagnostic ignored "-Wwrite-strings"
 
 #include <pipe.h>
+#include <string>
 
 int main()
 {

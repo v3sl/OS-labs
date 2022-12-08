@@ -5,7 +5,7 @@
 
 int main()
 {
-    Pipe::Write("/tmp/main","1 2 3 4\0");
+    Pipe::Write("/tmp/main","0 1 2 3\0");
     char buffer[BUFF_SIZE];
     Pipe::Read("/tmp/processS",buffer);
     std::cout << buffer << std::endl;

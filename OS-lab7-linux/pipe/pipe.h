@@ -2,11 +2,10 @@
 #define PIPE_H
 
 #include <stdio.h>
-#include <string.h>
 #include <fcntl.h>
 #include <sys/stat.h>
 #include <unistd.h>
-#include <stdexcept>
+#include <string.h>
 
 #define PIPE_MODE 0666
 #define BUFF_SIZE 512

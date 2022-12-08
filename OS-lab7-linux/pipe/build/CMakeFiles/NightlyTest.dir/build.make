@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/v3sl/Desktop/OS-lab7-linux/pipe
+CMAKE_SOURCE_DIR = /home/v3sl/Desktop/OS/OS-lab7-linux/pipe
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/v3sl/Desktop/OS-lab7-linux/pipe/build
+CMAKE_BINARY_DIR = /home/v3sl/Desktop/OS/OS-lab7-linux/pipe/build
 
 # Utility rule file for NightlyTest.
 
@@ -82,6 +82,6 @@ CMakeFiles/NightlyTest.dir/clean:
 .PHONY : CMakeFiles/NightlyTest.dir/clean
 
 CMakeFiles/NightlyTest.dir/depend:
-	cd /home/v3sl/Desktop/OS-lab7-linux/pipe/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/v3sl/Desktop/OS-lab7-linux/pipe /home/v3sl/Desktop/OS-lab7-linux/pipe /home/v3sl/Desktop/OS-lab7-linux/pipe/build /home/v3sl/Desktop/OS-lab7-linux/pipe/build /home/v3sl/Desktop/OS-lab7-linux/pipe/build/CMakeFiles/NightlyTest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/v3sl/Desktop/OS/OS-lab7-linux/pipe/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/v3sl/Desktop/OS/OS-lab7-linux/pipe /home/v3sl/Desktop/OS/OS-lab7-linux/pipe /home/v3sl/Desktop/OS/OS-lab7-linux/pipe/build /home/v3sl/Desktop/OS/OS-lab7-linux/pipe/build /home/v3sl/Desktop/OS/OS-lab7-linux/pipe/build/CMakeFiles/NightlyTest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/NightlyTest.dir/depend
 

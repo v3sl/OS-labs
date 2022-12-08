@@ -1,4 +1,4 @@
-# Install script for directory: /home/v3sl/Desktop/OS-lab7-linux/pipe
+# Install script for directory: /home/v3sl/Desktop/OS/OS-lab7-linux/pipe
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/v3sl/Desktop/OS-lab7-linux/pipe/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/v3sl/Desktop/OS/OS-lab7-linux/pipe/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
