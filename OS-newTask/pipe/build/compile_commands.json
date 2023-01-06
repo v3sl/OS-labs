@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/v3sl/Desktop/OS-newTask/pipe/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/pipe.dir/pipe.cpp.o -c /home/v3sl/Desktop/OS-newTask/pipe/pipe.cpp",
+  "file": "/home/v3sl/Desktop/OS-newTask/pipe/pipe.cpp"
+}
+]

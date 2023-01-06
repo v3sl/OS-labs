@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/v3sl/Desktop/OS-newTask/socket/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/socket.dir/socket.cpp.o -c /home/v3sl/Desktop/OS-newTask/socket/socket.cpp",
+  "file": "/home/v3sl/Desktop/OS-newTask/socket/socket.cpp"
+},
+{
+  "directory": "/home/v3sl/Desktop/OS-newTask/socket/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/socket.dir/clientSocket.cpp.o -c /home/v3sl/Desktop/OS-newTask/socket/clientSocket.cpp",
+  "file": "/home/v3sl/Desktop/OS-newTask/socket/clientSocket.cpp"
+},
+{
+  "directory": "/home/v3sl/Desktop/OS-newTask/socket/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/socket.dir/serverSocket.cpp.o -c /home/v3sl/Desktop/OS-newTask/socket/serverSocket.cpp",
+  "file": "/home/v3sl/Desktop/OS-newTask/socket/serverSocket.cpp"
+}
+]

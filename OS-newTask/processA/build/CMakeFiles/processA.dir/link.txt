@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/processA.dir/main.cpp.o -o processA  ../../pipe/build/libpipe.a ../../messageQueue/build/libmessageQueue.a ../../sharedMemory/build/libsharedMemory.a ../../fileMapping/build/libfileMapping.a ../../socket/build/libsocket.a 

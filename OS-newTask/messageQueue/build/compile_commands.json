@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/v3sl/Desktop/OS-newTask/messageQueue/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/messageQueue.dir/messageQueue.cpp.o -c /home/v3sl/Desktop/OS-newTask/messageQueue/messageQueue.cpp",
+  "file": "/home/v3sl/Desktop/OS-newTask/messageQueue/messageQueue.cpp"
+}
+]

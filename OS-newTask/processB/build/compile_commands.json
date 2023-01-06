@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/v3sl/Desktop/OS-newTask/processB/build",
+  "command": "/usr/bin/g++  -isystem /home/v3sl/Desktop/OS-newTask/processB/../pipe -isystem /home/v3sl/Desktop/OS-newTask/processB/../messageQueue -isystem /home/v3sl/Desktop/OS-newTask/processB/../sharedMemory -isystem /home/v3sl/Desktop/OS-newTask/processB/../fileMapping -isystem /home/v3sl/Desktop/OS-newTask/processB/../socket -g -o CMakeFiles/processB.dir/main.cpp.o -c /home/v3sl/Desktop/OS-newTask/processB/main.cpp",
+  "file": "/home/v3sl/Desktop/OS-newTask/processB/main.cpp"
+}
+]

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/v3sl/Desktop/OS-newTask/sharedMemory/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/sharedMemory.dir/sharedMemory.cpp.o -c /home/v3sl/Desktop/OS-newTask/sharedMemory/sharedMemory.cpp",
+  "file": "/home/v3sl/Desktop/OS-newTask/sharedMemory/sharedMemory.cpp"
+}
+]

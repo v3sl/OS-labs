@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpipe.a CMakeFiles/pipe.dir/pipe.cpp.o
+/usr/bin/ranlib libpipe.a

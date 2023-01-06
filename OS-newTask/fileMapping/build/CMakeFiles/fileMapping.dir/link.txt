@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfileMapping.a CMakeFiles/fileMapping.dir/fileMapping.cpp.o
+/usr/bin/ranlib libfileMapping.a

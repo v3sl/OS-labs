@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/v3sl/Desktop/OS-newTask/fileMapping/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/fileMapping.dir/fileMapping.cpp.o -c /home/v3sl/Desktop/OS-newTask/fileMapping/fileMapping.cpp",
+  "file": "/home/v3sl/Desktop/OS-newTask/fileMapping/fileMapping.cpp"
+}
+]

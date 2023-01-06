@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsharedMemory.a CMakeFiles/sharedMemory.dir/sharedMemory.cpp.o
+/usr/bin/ranlib libsharedMemory.a
